@@ -16,7 +16,7 @@ export default {
   middleware: 'guest',
   data () {
     return {
-      oAuthUrl: `${process.env.apiUrl}/oauth2authorize`
+      oAuthUrl: `${process.env.apiUrl}/oauth2/authorize`
     }
   },
   fetch () {

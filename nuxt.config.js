@@ -165,12 +165,6 @@ export default {
   env: {
     baseUrl: process.env.BASE_URL || 'http://localhost:3000',
     apiUrl: process.env.API_URL || 'http://localhost:3000',
-    apiDirectory: process.env.API_DIR || '/api/',
-    oAuthClientId: process.env.OAUTH_CLIENT_ID || '',
-    oAuthUrl: process.env.OAUTH_URL || 'https://oauth.cmu.ac.th',
-    oAuthAuthorize: process.env.OAUTH_AUTHORIZE || '/v1/Authorize.aspx',
-    oAuthReturnUri: process.env.OAUTH_RETURN_URI || '/auth/',
-    oAuthScope: process.env.OAUTH_SCOPE || 'cmuitaccount.basicinfo',
-    oAuthState: process.env.OAUTH_STATE || 'abc'
+    apiDirectory: process.env.API_DIR || '/api/'
   }
 }
